@@ -13,6 +13,7 @@ train.py — This file is used to train models on the diabetes dataset.</h3>
 Data is loaded using pd.read_csv() (e.g. from diabetes_prediction_dataset.csv).
 Features (X) and target variable (y) are extracted from the data.
 
+
 Transforming data:
 For numeric data, StandardScaler is used to standardize it.
 For categorical data, OneHotEncoder is used to transform strings into numeric features.
