@@ -7,9 +7,9 @@ train.py — This file is used to train models on the diabetes dataset.</h3>
 
 <h1>Train file</h1>
 
-<h3>The train file divided into several points:
+<h2>The train file divided into several points:</h2>
 
-Loading data:
+<h3>Loading data:
 Data is loaded using pd.read_csv() (e.g. from diabetes_prediction_dataset.csv).
 Features (X) and target variable (y) are extracted from the data.
 
@@ -23,15 +23,14 @@ A pipeline with transformers and a RandomForest classifier is created.
 Train the model: The model is trained on the training data, and then evaluated on the test data.
 
 Save the model: The model is saved to the diabetes_model.pkl file using joblib.
-train.
+train.</h3>
 
-The accuracy of the model is 95 percent
-</h3>
+<h2>The accuracy of the model is 95 percent</h2>
 
 <h1>Request file</h1>
 
-<h3>DiabetesRequest class: 
-  This is a data model defined using the Pydantic library. Each attribute in the class represents an input parameter for prediction, such as age, gender, hypertension, etc. 
+<h2>DiabetesRequest class:</h2> 
+ <h3> This is a data model defined using the Pydantic library. Each attribute in the class represents an input parameter for prediction, such as age, gender, hypertension, etc. 
 The parameters are described using Field(), where you can specify additional constraints, such as: 
 Pattern for gender (Male or Female only). 
 Range of values ​​for some numeric fields.
