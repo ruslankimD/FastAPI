@@ -11,7 +11,7 @@ train.py — This file is used to train models on the diabetes dataset.</h3>
 
 <h3>Loading data:
 Data is loaded using pd.read_csv() (e.g. from diabetes_prediction_dataset.csv).
-Features (X) and target variable (y) are extracted from the data.
+Features (X) and target variable (y) are extracted from the data. n/
 
 
 Transforming data:
@@ -30,13 +30,12 @@ train.</h3>
 
 <h1>Request file</h1>
 
-<h2>DiabetesRequest class:</h2> 
- <h3> This is a data model defined using the Pydantic library. Each attribute in the class represents an input parameter for prediction, such as age, gender, hypertension, etc. 
-The parameters are described using Field(), where you can specify additional constraints, such as: 
-Pattern for gender (Male or Female only). 
-Range of values ​​for some numeric fields.
+<h3> DiabetesRequest class: n/ 
+This is a data model defined using the Pydantic library. Each attribute in the class represents an input parameter for prediction, such as age, gender, hypertension, etc. n/
+The parameters are described using Field(), where you can specify additional constraints, such as:n/ 
+Pattern for gender (Male or Female only).n/
+Range of values ​​for some numeric fields.n/
 
-to_features() method:
+to_features() method:n/
 Converts an object into a list of features that are used in the model to make predictions. This list is passed to the model, which makes a prediction based on the data passed in.
-request
 </h3>
